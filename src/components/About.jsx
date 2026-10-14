@@ -1,4 +1,3 @@
-import { TextShimmer } from "./core/text-shimmer";
 
 function About() {
   return (
