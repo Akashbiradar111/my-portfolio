@@ -283,6 +283,10 @@
   vertical-align: baseline;
 }
 
+.hero-role-mobile {
+  display: none;
+}
+
 .hero-role > span {
   display: inline-flex;
 }
@@ -3966,6 +3970,15 @@ img {
 
     max-width: 100%;
 
+    white-space: nowrap;
+  }
+
+  .hero-role-desktop {
+    display: none !important;
+  }
+
+  .hero-role-mobile {
+    display: inline-flex;
     white-space: nowrap;
   }
 

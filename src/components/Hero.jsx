@@ -85,7 +85,7 @@ function Hero() {
 
           <p className="hero-description">
 
-            <span className="hero-role">
+            <span className="hero-role hero-role-desktop">
 
               <TextLoop
                 interval={2500}
@@ -123,6 +123,8 @@ function Hero() {
               </TextLoop>
 
             </span>
+
+            <span className="hero-role-mobile">Data Engineer</span>
 
             {" "}crafting
             <br />
